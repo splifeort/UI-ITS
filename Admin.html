@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Application List</title>
+
+<style>
+* {
+  box-sizing: border-box;
+}
+/* Style the header */
+.header {
+  padding: 10px;
+  padding-top:50px;
+  text-align: left;
+  text-indent: 25px;
+  color: white;
+}
+
+.footer{
+	background-color: #333; 
+	color: white;
+	text-align:	center;
+	position: fixed;
+	bottom:0;
+	width:100%
+}
+
+h1.section{
+  padding: 10px;
+  text-align: left;
+  text-indent: 25px;
+  color: black;
+}
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  position:fixed;
+  background-color: #333;
+  width:100%;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+
+body {
+  background-image: url(https://cdn.discordapp.com/attachments/699895133226926143/727193246329077841/graphic.jpg);
+  background-position: auto;
+  background-repeat:auto;  
+  background-size: cover;
+  height: 100%;
+  margin: 0;
+  padding-bottom:100px;
+  font-family:"Consolas"; 
+}
+
+#equipments{
+	border-collapse: collapse;
+	width: 50%;
+	margin: auto;
+}
+
+
+
+#equipments td, #equipments th {
+  border: 1px solid #ddd;
+  padding: 8px;
+
+}
+
+td.center{text-align: center;}
+
+#equipments tr{background-color: silver;color: black;}
+#equipments tr:hover {background-color: #2F4F4F;color: white;}
+#equipments th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  background-color: black;
+  color: white;
+}
+@media screen and (max-width: 600px) {
+  .column.side, .column.middle {
+    width: 100%;
+  }
+
+</style>
+</head>
+
+
+<body>
+
+
+<div class="topnav">
+  <a href="#">Home</a>
+  <a href="#" style="background-color:#A9A9A9;color:black;">Application</a>
+  <a href="#">Contact</a>
+  <li style="float:right"><a href="#login">Log out</a></li>
+</div>
+
+<div class="header">
+   
+   <p>UiTM CAWANGAN PAHANG KAMPUS RAUB</p>
+  <h1>Unit Bahagian Pembangunan & </h1> <h1> Pengurusan Fasiliti (BPPF)</h1>
+  
+</div>
+<div>
+
+<h1 class="section">Booking List</h1>
+
+<table id="equipments">
+	<tr>
+		<th>NO</th>
+		<th>NAME</th>
+		<th>DATE</th>
+		<th>APPROVAL STATUS</th>
+	</tr>
+	<tr> 
+		<td>1.</td>
+		<td>AHMAD ALBAB</td>
+		<td class="center">27/07/2020</td>
+		<td class="center">YES</td>
+	</tr>
+	<tr>
+		<td>2.</td>
+		<td>MUHAMAD SAMAD</td>
+		<td class="center">14/08/2020</td>
+		<td class="center">YES</td>
+	</tr>
+	<tr>
+		<td>3.</td>
+		<td>NUR SYIFA</td>
+		<td class="center">15/08/2020</td>
+		<<td class="center">YES</td>
+	</tr>
+	<tr>
+		<td>4.</td>
+		<td>FARID IDZHAM</td>
+		<td class="center">20/08/2020</td>
+		<td class="center">YES</td>
+	</tr>
+	<tr>
+		<td>5.</td>
+		<td>SITI </td>
+		<td class="center">27/08/2020</td>
+		<td class="center">NO</td>
+	</tr>
+	<tr>
+		<td>6.</td>
+		<td>IMAN ZULHILMI</td>
+		<td class="center">01/09/2020</td>
+		<td class="center">PENDING</td>
+	</tr>
+	<tr>
+		<td>7.</td>
+		<td>SARAH ARDIANA</td>
+		<td class="center">09/09/2020</td>
+		<td class="center">PENDING</td>
+	</tr>
+	<tr>
+		<td>8.</td>
+		<td>KHAIR HISHAM</td>
+		<td class="center">09/09/2020</td>
+		<td class="center">PENDING</td>
+	</tr>
+	<tr>
+		<td>9.</td>
+		<td>KAMARUL AHMAD</td>
+		<td class="center">10/09/2020</td>
+		<td class="center">YES</td>
+	</tr>
+	<tr>
+		<td>10.</td>
+		<td>SYARIFAH KASSIM</td>
+		<td class="center">15/09/2020</td>
+		<td class="center">YES</td>
+	</tr>
+	<tr>
+		<td>11.</td>
+		<td>NUR CAHAYA</td>
+		<td class="center">16/09/2020</td>
+		<td class="center">NO</td>
+	</tr>
+	<tr>
+		<td>12.</td>
+		<td>NURUL FATIMAH</td>
+		<td class="center">16/09/2020</td>
+		<td class="center">YES</td>
+	</tr>
+	</table>	
+</div>
+<div class="footer">
+        <p>Copyright © 2020 UiTM Raub</p>
+</div>	
+
+</body>
+
+</html>
